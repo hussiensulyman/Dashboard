@@ -69,6 +69,7 @@
     border-radius: 8px;
     border: 1px solid #cfdbd5;
     margin-bottom: 1rem;
+    padding: 20px;
 }
 
 .payment-form input::placeholder{
@@ -128,6 +129,13 @@
     display: flex;
     width: 90px;
 } */
+
+.payment-form .transfer-fee i{
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    color: #747a80;
+}
 
 .payment-form .transfer-fee .fee{
     position: absolute;
