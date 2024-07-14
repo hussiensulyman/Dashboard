@@ -1,0 +1,269 @@
+/* Payment Styles */
+.header .header-title{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: flex-end;
+}
+
+.header .header-title i{
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #cfdbd5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .header-title h1{
+    width: 150px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+}
+
+.main-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.payment-form{
+    position: relative;
+    left: 75px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 725px;
+}
+
+.payment-form .pay-for,
+.payment-form .walle,
+.payment-form .you-will-pay,
+.payment-form .total-amount {
+    width: 500px;
+    height: 92px;
+}
+
+.payment-form label{
+    position: relative;
+    left: 0px;
+    top: -2px;
+    width: 41px;
+    height: 18px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.payment-form input[type="text"]{
+    width: 500px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #cfdbd5;
+    margin-bottom: 1rem;
+}
+
+.payment-form input::placeholder{
+    position: absolute;
+    left: 20px;
+    /* top: 49px; */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.payment-form .you-will-pay,
+.payment-form .total {
+    position: relative;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.payment-form .currency,
+.payment-form .total-amount {
+    position: absolute;
+    left: 440px;
+    top: 52px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: right;
+}
+
+.payment-form .you-will-pay span img,
+.payment-form .total span img{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.payment-form .transfer-fee{
+    position: relative;
+    left: 21.49px;
+    top: 0px;
+    width: 194.8px;
+    height: 36px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .payment-form .transfer-fee label{
+    display: flex;
+    width: 90px;
+} */
+
+.payment-form .transfer-fee .fee{
+    position: absolute;
+    left: 20px;
+    top: -2px;
+    width: 70px;
+    height: 18px;
+    color: #747a80;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.payment-form .transfer-fee .fee-amount{
+    position: absolute;
+    left: 125px;
+    top: -2px;
+    width: 56px;
+    height: 18px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.note{
+    width: 448px;
+    height: 36px;
+    color: #747a80;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+/* .payment-form label {
+    position: relative;
+    left: 0px;
+    top: -2px;
+    width: 41px;
+    height: 18px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.payment-form input[type="text"],
+.payment-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dfe6e9;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #2d3436;
+}
+
+.payment-form .currency {
+    display: inline-flex;
+    align-items: center;
+    color: #636e72;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.payment-form .currency img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.transfer-fee {
+    display: flex;
+    align-items: center;
+    color: #636e72;
+    font-size: 0.9rem;
+}
+
+.transfer-fee input {
+    margin-right: 10px;
+}
+
+.transfer-fee .fee-amount {
+    color: #2d3436;
+}
+
+.note {
+    color: #636e72;
+    font-size: 0.8rem;
+    margin-top: 20px;
+} */
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+    width: 500px;
+    height: 52px;
+}
+
+.cancel-button,
+.pay-button {
+    width: 150px;
+    height: 52px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cancel-button {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), #0052ff;
+    background-blend-mode: normal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    color: #0052FF;
+}
+
+.cancel-button:hover {
+    background-color: #b2bec3;
+}
+
+.pay-button {
+    background-color: #0052FF;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+}
+
+.pay-button:hover {
+    background-color: #74b9ff;
+}

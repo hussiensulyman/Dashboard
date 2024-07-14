@@ -1,0 +1,141 @@
+.main-section {
+    padding: 20px;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 39px;
+    height: 18px;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+}
+
+.tab-button.active {
+    width: 84px;
+    height: 36px;
+    border-radius: 8px;
+    background: #000000;
+    background-blend-mode: normal;
+}
+
+.account-information,
+.contact-details {
+    width: 1024px;
+    height: 284px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    width: 184px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+}
+
+.infoitem {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 1024px;
+    height: 230px;
+    border-radius: 16px;
+    background: #ebf0f0;
+    background-blend-mode: normal;
+}
+
+.info-item{
+    position: relative;
+    left: 26px;
+    top: 20px;
+    width: 968px;
+    height: 60px;
+    border-bottom: 1px solid #cfdbd5;;
+    margin-top: 15px;
+}
+
+.info-item:last-child{
+    border: none;
+}
+
+.info-item label {
+    width: 55px;
+    height: 18px;
+    color: #747a80;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.info-item p {
+    width: 400px;
+    height: 21px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 1024px;
+    height: 46px;
+}
+
+.update-button,
+.cancel-button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 165px;
+    height: 46px;
+    border-radius: 8px;
+
+}
+
+.update-button {
+    background: #0052ff;
+    background-blend-mode: normal;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+}
+
+.cancel-button {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), #0052ff;
+    background-blend-mode: normal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    color: #0052FF;
+}
+
+.cancel-button:hover {
+    background-color: #b2bec3;
+}
+
+
+.update-button:hover {
+    background-color: #74b9ff;
+}

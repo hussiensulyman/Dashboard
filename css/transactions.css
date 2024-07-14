@@ -1,0 +1,143 @@
+/* Transactions Styles */
+
+.account-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 216px;
+    height: 55px;
+    position: relative;
+    left: 20px;
+}
+
+.account-info img {
+    width: 41px;
+    height: 41px;
+    margin-right: 10px;
+}
+
+.account-info p {
+    position: absolute;
+    left: 63px;
+    top: 0px;
+    width: 125px;
+    height: 21px;
+    color: #747a80;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.account-info h2 {
+    position: absolute;
+    left: 61px;
+    top: 26px;
+    width: 155px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.transaction-actions {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.transaction-actions .action-button {
+    background-color: #0984e3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+    position: relative;
+    left: 20px;
+    margin-right: 20px;
+}
+
+.transaction-actions .action-button:hover {
+    background-color: #74b9ff;
+}
+
+.transactions-list {
+    border-radius: 8px;
+    position: relative;
+    left: 20px;
+    top: 30px;
+    width: 1000px;
+    height: 154.7px;
+}
+
+.transactions-list h2{
+    width: 122px;
+    height: 21px;
+    color: #747a80;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.transactions-list h3 {
+    margin: 0 0 20px;
+    color: #2d3436;
+    font-size: 1.2rem;
+}
+
+/* .transaction-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #dfe6e9;
+}
+
+.transaction-item:last-child {
+    border-bottom: none;
+}
+
+.transaction-item .transaction-icon {
+    font-size: 2rem;
+    color: #0984e3;
+}
+
+.transaction-details {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.transaction-details p {
+    margin: 0;
+    color: #2d3436;
+}
+
+.transaction-details p:nth-child(2) {
+    color: #636e72;
+    font-size: 0.9rem;
+}
+
+.transaction-amount {
+    font-size: 1.2rem;
+    color: #2d3436;
+}
+
+.transaction-amount.negative {
+    color: #d63031;
+} */
+
+.transaction-item .material-icons-outlined {
+    cursor: pointer;
+    color: #2d3436;
+    transition: color 0.3s;
+}
+
+.transaction-item .material-icons-outlined:hover {
+    color: #0984e3;
+}
+
